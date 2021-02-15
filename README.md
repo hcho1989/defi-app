@@ -43,3 +43,9 @@ The FarmToken is similar to how a liquidity pools works. Follow up questions abo
 1. How to issue interest? Mint new FarmTokens?
 2. How does lending works? Some articles on the www says lender has to stake coins more valuable than how much they lend. Why on earth would anyone do that? 
 3. The `FarmToken` created here works only for one token, and the token has to be defined at build time. How does a BTC/ETH liquidity pool smart contract looks like? My preliminary thoughts are: maps to store what coins they have stored in the liquidity pool, pool token minted as proof of ownership. On redemption the owner gets to choose what coins to redeem at market price. When someone use the pool to exchange between BTC and ETH, service charge recieved will be credited to all stakers according to their ownership. There shall also be some entities to stake their coins initially when the smart contract are deployed. If ever anything error occurs those entities may risks their stakes perhaps?
+
+## More on defi
+
+1. liquidity pool (https://www.youtube.com/watch?v=cizLhxSKrAc)
+2. borrowing/lending (https://www.youtube.com/watch?v=WwE3lUq51gQ)
+3. Yeild Farming?
